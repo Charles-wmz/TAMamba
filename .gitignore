@@ -1,0 +1,23 @@
+# Local datasets and pretrained weights.
+/data/*
+!/data/.gitkeep
+/pretrained/*
+!/pretrained/.gitkeep
+
+# Keep local weight files out of the source repository.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python environments, caches, and editor files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
